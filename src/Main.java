@@ -1,11 +1,5 @@
 
-/*
-  @author   george
-  @project   Default (Template) Project
-  @class  ${NAME}
-  @version  1.0.0 
-  @since 04.02.24 - 17.04
-*/
+
 
 //TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
 // click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
@@ -44,16 +38,16 @@ class humanIMB {
     public static String Result() {
         String  string = null;
         if (imb >=18.5 & imb <25) {
-            string ="Норма, ты в форме!";
+            string ="Norm";
         }
         if (imb >=25 & imb <30) {
-            string ="Предожирение. Эй, поосторожнее с пирожными ";
+            string ="Warning! ";
         }
         if (imb >=30) {
-            string ="Ожирение. SCHWEINE! Хватит жрать, иди на треню!";
+            string ="Fat";
         }
         if (imb <18.5) {
-            string ="Дефицит массы тела. В модели решил переквалифицироваться?";
+            string ="Deficit";
         }
         return string;
     }
